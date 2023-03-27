@@ -1,0 +1,41 @@
+{
+  "id": "XBOX-1231234akjsdf21",
+  "createdAt": "2022-04-28",
+  "updatedAt": "2022-04-30",
+  "userId": "2fasdksk12ksd12d",
+  "userName": "daniel william",
+  "userEmail": "daniel@example.com",
+  "status": "complete",
+  "startDate": "2022-04-28",
+  "endDate": "2022-04-30",
+  "title": "Last of Us HBO Max Promo",
+  "embargo": "false",
+  "embargo_time": "10:45",
+  "additional_stakeholder_emails": "stringifiedemails",
+  "xgp": true,
+  "xgp_how": "XGP how explanation",
+  "goal": "Lorem ispum the goal of this",
+  "description": "Lorem ispum the description",
+  "additional_requests": true,
+  "priority_between_beats": "Lorem ipsum",
+  "request_strategy": "native",
+  "native": "Lorem ipsum",
+  "amplification": "",
+  "reactive": "",
+  "comments": [
+    {
+      "id": "8asdfk3f9sadjrandomid",
+      "content": "",
+      "type": "email",
+      "createdAt": "2022-03-28",
+      "userId": "i32kasdfkjuserId"
+    },
+    {
+      "id": "8asdfk3f9sadjrandomid",
+      "content": "",
+      "type": "email",
+      "createdAt": "2022-03-28",
+      "userId": "i32kasdfkjuserId"
+    }
+  ]
+}

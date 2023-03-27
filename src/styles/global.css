@@ -1,0 +1,221 @@
+html {
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  font-family: 'inter';
+  color: black;
+}
+
+body,
+#___gatsby,
+#gatsby-focus-wrapper,
+#gatsby-focus-wrapper > div {
+  min-height: 100vh;
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #c9c9c9;
+}
+
+.dark *::-webkit-scrollbar-track {
+  background-color: #32363d;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #13171d;
+  border-radius: 8px;
+}
+
+.dark *::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+}
+/* .dark::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #D9D9D9; 
+} */
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+.dark *::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+body {
+  background: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.h-full-b {
+  height: calc(100vh - 64px);
+}
+.h-full-72x {
+  height: calc(100% - 72px);
+}
+.h-full-n-scroll {
+  height: calc(100% - 5.55rem);
+}
+.user-pop-up {
+  z-index: 400;
+  border-radius: 0 0 10px 10px;
+  overflow: auto;
+}
+
+/* react calendar */
+.react-calendar {
+  background-color: transparent !important;
+}
+
+.react-calendar {
+  font-family: 'inter' !important;
+  width: 268px !important;
+  height: 232px !important;
+  border: none !important;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus,
+.react-calendar__navigation button:enabled:focus,
+.react-calendar__navigation button:enabled:hover {
+  background: #464c54 !important;
+}
+
+/* .react-calendar__tile 
+.react-calendar__tile--hover 
+.react-calendar__tile--hoverStart 
+.react-calendar__month-view__days__day */
+
+.react-calendar
+  > .react-calendar__navigation
+  > .react-calendar__navigation__next2-button {
+  display: none;
+}
+.react-calendar
+  > .react-calendar__navigation
+  > .react-calendar__navigation__prev-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.react-calendar > .react-calendar__navigation {
+  height: 24px;
+  margin-bottom: 8px;
+}
+.react-calendar
+  > .react-calendar__navigation
+  > .react-calendar__navigation__next-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.react-calendar
+  > .react-calendar__navigation
+  > .react-calendar__navigation__prev2-button {
+  display: none;
+}
+.react-calendar
+  > .react-calendar__viewContainer
+  > .react-calendar__month-view
+  .react-calendar__month-view__days
+  > .react-calendar__month-view__days__day {
+  width: 34px;
+  height: 34px;
+}
+.react-calendar
+  > .react-calendar__viewContainer
+  .react-calendar__month-view__days__day--weekend {
+  color: #13171d;
+}
+.dark
+  .react-calendar
+  > .react-calendar__viewContainer
+  .react-calendar__month-view__days__day--weekend {
+  color: #ffffff;
+}
+.first-choose-calandar
+  > .react-calendar__viewContainer
+  .react-calendar__tile--now {
+  background-color: #787a7c;
+}
+.last-choose-calandar
+  > .react-calendar__viewContainer
+  .react-calendar__tile--now {
+  background-color: transparent;
+}
+.react-calendar > .react-calendar__viewContainer .react-calendar__tile--active {
+  background-color: #464c54;
+}
+.react-calendar
+  > .react-calendar__viewContainer
+  .react-calendar__tile--rangeStart {
+  border-radius: 8px 0 0 8px;
+  background-color: #107c10;
+}
+/* 
+.react-calendar__tile--active,
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #107c10 !important;
+  outline: 1px solid #4dae4f !important;
+  border-radius: 8px;
+} */
+
+.react-calendar__month-view__weekdays__weekday {
+  text-transform: capitalize !important;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+}
+
+.after\:dark [role='tooltip'] > [data-popper-arrow]::after,
+:after,
+.after\:dark [role='tooltip'] > [data-popper-arrow]::after,
+:before {
+  display: none;
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
+  display: initial;
+}
+
+/* @media (max-width: 375px) {
+  .react-calendar {
+    width: 250px !important;
+  }
+} */
+/* @media (max-width: 767px) {
+  .react-calendar {
+    width: 300px !important;
+  }
+} */

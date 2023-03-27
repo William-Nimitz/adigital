@@ -1,0 +1,47 @@
+[
+  {
+    "id": "707071",
+    "photo": "url_from_microsoft_service",
+    "role": "admin",
+    "status": "active",
+    "email": "emai@ayzenberg.com",
+    "fullName": "Jim Halpert",
+    "darkModePreference": true
+  },
+  {
+    "id": "707072",
+    "photo": "url_from_microsoft_service",
+    "role": "client",
+    "status": "active",
+    "email": "daniel@ayzenberg.com",
+    "fullName": "daniel Smith",
+    "darkModePreference": true
+  },
+  {
+    "id": "707074",
+    "photo": "url_from_microsoft_service",
+    "role": "client",
+    "status": "active",
+    "email": "mark@ayzenberg.com",
+    "fullName": "mark Johnson",
+    "darkModePreference": false
+  },
+  {
+    "id": "707075",
+    "photo": "url_from_microsoft_service",
+    "role": "client",
+    "status": "active",
+    "email": "donald@ayzenberg.com",
+    "fullName": "donald Williams",
+    "darkModePreference": false
+  },
+  {
+    "id": "707077",
+    "photo": "url_from_microsoft_service",
+    "role": "client",
+    "status": "active",
+    "email": "george@ayzenberg.com",
+    "fullName": "george Garcia",
+    "darkModePreference": false
+  }
+]
